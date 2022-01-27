@@ -4,6 +4,8 @@ This is the starter project for the fullstack tutorial with Next.js and Prisma. 
 
 Based on this article: https://vercel.com/guides/nextjs-prisma-postgres
 
+Ready until Step 6.
+
 ## Commands
 
 - npx create-next-app --example https://github.com/nikolasburk/blogr-nextjs-prisma/tree/main blogr-nextjs-prisma
