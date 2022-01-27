@@ -1,3 +1,4 @@
+import { SessionProvider } from "next-auth/react";
 import React, { ReactNode } from "react";
 import Header from "./Header";
 
@@ -7,7 +8,9 @@ type Props = {
 
 const Layout: React.FC<Props> = (props) => (
   <div>
-    <Header />
+    <SessionProvider>
+      <Header />
+    </SessionProvider>
     <div className="layout">{props.children}</div>
     <style jsx global>{`
       html {
